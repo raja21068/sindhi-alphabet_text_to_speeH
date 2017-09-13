@@ -1,0 +1,91 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView1"
+    android:layout_toLeftOf="@+id/textView1" >
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="310dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_x="3dp"
+        android:layout_y="42dp"
+        android:contentDescription="@string/speak"
+        android:src="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="-6dp"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="333dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#080100"
+        android:shadowDx="-2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/wordbtn"
+        android:layout_width="77dp"
+        android:layout_height="46dp"
+        android:layout_x="227dp"
+        android:layout_y="401dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#080100"
+        android:shadowDx="-2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="See Word"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+	
+    <Button
+        android:id="@+id/seeallbtn"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_x="224dp"
+        android:layout_y="334dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#080100"
+        android:shadowDx="-2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="See All"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="44dp"
+        android:layout_x="15dp"
+        android:layout_y="404dp"
+        android:textSize="20sp"
+    	android:gravity="left"  
+    	android:textColor="#FF0000"
+        android:background="@drawable/buttonshape"
+         />
+        
+</AbsoluteLayout>
